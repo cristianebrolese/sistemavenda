@@ -18,6 +18,9 @@ public class Main {
 		
 		System.out.println("Valor de Venda: " +p2.getPrecoDeCompra());
 		p2.vende(5);
+		
+		System.out.println("Quantidade em estoque: "+p2.getQuantidadeDeEstoque());
+		
 	}
 
 }
