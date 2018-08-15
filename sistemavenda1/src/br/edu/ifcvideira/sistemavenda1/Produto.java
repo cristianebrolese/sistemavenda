@@ -32,5 +32,11 @@ public class Produto {
 	public int getQuantidadeDeEstoque(){
 		return this.quantidadeDeEstoque;
 		}
+	
+	public double definePrecoDeVenda(double porcentagem){
+		return precoDeCompra += precoDeCompra*(porcentagem/100.0);
+		}
+	
+	
 
 }
