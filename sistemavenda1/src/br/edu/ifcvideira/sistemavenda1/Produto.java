@@ -25,5 +25,12 @@ public class Produto {
 	public double getPrecoDeCompra(){
 		return this.precoDeCompra;
 		}
+	
+	public void setQuantidadeDeEstoque(int valor){
+		this.quantidadeDeEstoque = valor;
+		}
+	public int getQuantidadeDeEstoque(){
+		return this.quantidadeDeEstoque;
+		}
 
 }
