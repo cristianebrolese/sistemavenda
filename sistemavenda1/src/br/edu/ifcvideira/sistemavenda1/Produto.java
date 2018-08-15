@@ -18,5 +18,12 @@ public class Produto {
 	public String getNome(){
 		return this.nome;
 		}
+	
+	public void setPrecoDeCompra(double valor){
+		this.precoDeCompra = valor;
+		}
+	public double getPrecoDeCompra(){
+		return this.precoDeCompra;
+		}
 
 }
