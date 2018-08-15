@@ -15,6 +15,9 @@ public class Main {
 		Produto p2 = new Produto("Borracha", 0.50, 30);
 		System.out.println("Nome do Produto: " +p2.getNome());
 		p2.definePrecoDeVenda(20);
+		
+		System.out.println("Valor de Venda: " +p2.getPrecoDeCompra());
+		p2.vende(5);
 	}
 
 }
