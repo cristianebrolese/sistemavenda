@@ -10,7 +10,7 @@ public class Main {
 		
 		System.out.println("Valor de Compra: " + p1.getPrecoDeCompra());
 		p1.vende(8);
-		
+		System.out.println("Quantidade em estoque: " +p1.getQuantidadeDeEstoque());
 	}
 
 }
