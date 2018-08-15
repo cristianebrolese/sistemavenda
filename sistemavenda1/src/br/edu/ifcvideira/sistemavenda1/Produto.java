@@ -37,6 +37,13 @@ public class Produto {
 		return precoDeCompra += precoDeCompra*(porcentagem/100.0);
 		}
 	
-	
+	public void vende(int quantidade){
+		if(this.quantidadeDeEstoque>=quantidade){
+			this.quantidadeDeEstoque-=quantidade;
+		}
+		else{
+			System.out.println("Quantidade requerida indisponivel no estoque");
+		}
+		}
 
 }
